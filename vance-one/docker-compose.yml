@@ -4,7 +4,7 @@ services:
   server:
     build: ./server
     ports:
-      - '3000:3000'
+      - '6666:6666'
     environment:
       - MONGO_URL=${MONGO_URL}
     restart: unless-stopped

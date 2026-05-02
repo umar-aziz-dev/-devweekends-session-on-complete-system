@@ -3,7 +3,7 @@
 This small project demonstrates deploying a Node/Express API and a static client with Docker Compose using an external MongoDB.
 
 Services
-- `server` — Express API (port 3000)
+- `server` — Express API (port 6666)
 - `client` — Nginx-served static UI (port 7777)
 
 Quick start (requires Docker and docker-compose):
@@ -23,7 +23,7 @@ docker compose up --build
 
 3. Open the client UI: http://localhost:7777
 
-Server API: http://localhost:3000/api/todos
+Server API: http://localhost:6666/api/todos
 
 Client features
 - Add todos

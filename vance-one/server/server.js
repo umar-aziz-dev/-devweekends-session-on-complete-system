@@ -51,7 +51,7 @@ app.delete('/api/todos/:id', async (req, res) => {
   }
 });
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 6666;
 app.listen(PORT, async () => {
   await connectDB();
   console.log('Server listening on', PORT);
